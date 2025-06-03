@@ -1,0 +1,15 @@
+name: CI Pipeline Skeleton
+
+on:
+  pull_request:
+    branches:
+      - develop # Or your main development branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+    - name: Echo CI up
+      run: echo "CI up."
