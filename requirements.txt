@@ -1,0 +1,16 @@
+transformers
+torch
+fastapi
+uvicorn
+python-dotenv
+# ICD10
+typing
+logging
+requests
+datetime
+
+# Model
+peft
+bitsandbytes
+sentencepiece
+safetensors
